@@ -36,7 +36,7 @@ Future Upgrades
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/DkrePGr.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://i.imgur.com/DkrePGr.gif" alt="Video Walkthrough" width="600">
 
 GIF created with ...
 --->Snipping tool
