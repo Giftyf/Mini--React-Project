@@ -1,0 +1,175 @@
+#Slideshow .mySlides {
+    display: none;
+  }
+  
+  #Slideshow img {
+    vertical-align: middle;
+  }
+  
+  #Slideshow .slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+  }
+  
+  #Slideshow .prev,
+  #Slideshow .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  #Slideshow .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  #Slideshow .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  #Slideshow .prev:hover,
+  #Slideshow .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  #Slideshow .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #Slideshow .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  #Slideshow .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  #Slideshow .active,
+  #Slideshow .dot:hover {
+    background-color: #717171;
+  }
+  
+  #Slideshow .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1} 
+  }
+  
+  @media only screen and (max-width: 300px) {
+    #Slideshow .prev,
+    #Slideshow .next,
+    #Slideshow .text {
+      font-size: 11px;
+    }
+  }
+  body {
+    font-family: Arial;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #333;
+    background-color: #222;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+  }
+
+  .tab button:hover {
+    background-color: #444;
+  }
+
+  .tab button.active {
+    background-color: #666;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #333;
+    border-top: none;
+    background-color: #1c1c1c;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+
+  .slideshow-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .slideshow-buttons button:hover {
+    background-color: #555;
+  }
+  footer{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    color:grey;
+}
+a{
+  color:rgb(118, 1, 118)
+}

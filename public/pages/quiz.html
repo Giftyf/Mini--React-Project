@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Vue, Final Project, CSC343" />
+    <meta name="description" content="Vue example" />
+    <title>Quize Time</title>
+    <style>
+      body{
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        background-color: rgb(241, 143, 241);
+
+      }
+      footer{
+          position: fixed;
+          bottom:0px;
+          right:0px;
+          color:grey;
+      }
+      button{
+          background-color: rgb(247, 176, 235);
+      }
+      a{
+        color:rgb(118, 1, 118);
+      }
+    </style>
+   </head>
+   <body>
+    <div id="main">
+      <h1>Space Quiz</h1>
+      <a href="/" rel="noopener noreferrer">Back to Home</a>
+      <!-- loop through each quiz question -->
+      <div v-for="(ques, index) in quize" :key="index">
+         <!--display question -->
+        <p><strong>{{ index + 1 }}. {{ ques.question }}</strong></p>
+        <div v-for="option in ques.options" :key="option">
+            <!--display options as radio buttons -->
+          <input :id="'q' + index + '-' + option" type="radio"  :name="'q' + index" :value="option" v-model="userAns[index]" :disabled="submitted" />
+          <label :for="'q' + index + '-' + option">{{ option }}</label>
+        </div>
+      </div>
+      <br/>
+      <!--shot Submit button if quiz not submitted -->
+     <!--https://www.w3schools.com/vue/ref_v-else-if.php--> 
+      <button v-if="!submitted" @click="submitquiz">Submit</button>
+       <!--display the result and Retake button if submitted -->
+      <div v-else>
+        <p>You got {{ rightAns }} right.</p>
+        <button @click="retakeQuiz">Retake</button>
+      </div>
+    </div>
+   
+    <script type="module" src="quize.js"></script>
+    <footer>
+        <address>Made by:Nigist Legesse (05/02)</address>
+    </footer>
+   </body>
+  
+</html> 

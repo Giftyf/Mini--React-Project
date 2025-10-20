@@ -1,0 +1,53 @@
+[
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Saturn", "Jupiter", "Mars"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Mercury", "Uranus"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What galaxy do we live in?",
+      "options": ["Andromeda Galaxy", "Milky Way Galaxy", "Whirlpool Galaxy", "Sombrero Galaxy"],
+      "answer": "Milky Way Galaxy"
+    },
+    {
+      "question": "What is the name of the first human to travel into space?",
+      "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "Alan Shepard"],
+      "answer": "Yuri Gagarin"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": ["Jupiter", "Saturn", "Neptune", "Mars"],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is a supernova?",
+      "options": ["A type of star", "An exploding star", "A black hole", "A comet"],
+      "answer": "An exploding star"
+    },
+    {
+      "question": "Which planet is tilted on its side, nearly rotating horizontally?",
+      "options": ["Neptune", "Venus", "Uranus", "Pluto"],
+      "answer": "Uranus"
+    },
+    {
+      "question": "How long does light from the Sun take to reach Earth?",
+      "options": ["1 second", "8 minutes", "1 hour", "24 hours"],
+      "answer": "8 minutes"
+    },
+    {
+      "question": "What is the surface of the Moon primarily covered with?",
+      "options": ["Ice", "Dust and rock", "Water", "Lava"],
+      "answer": "Dust and rock"
+    },
+    {
+      "question": "Which space telescope has given us detailed images of deep space since 1990?",
+      "options": ["James Webb", "Spitzer", "Chandra", "Hubble"],
+      "answer": "Hubble"
+    }
+  ]
+  

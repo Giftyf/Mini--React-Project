@@ -1,0 +1,58 @@
+
+/*sets the background image to the one spcified*/
+body{
+  background-image:url('../public/images/background.jpg');
+  background-size: cover;
+  text-align: center;
+  color:rgb(149, 0, 255);
+ 
+}
+a{
+  color:red;
+}
+.slideshow {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*grid two rows and three columns*/
+.wrapper {
+  text-align: left;
+  display: grid;
+  grid-gap: 5px;
+  width: 550px;
+  grid-template-columns: 180px 180px 180px;
+  background-color: rgb(132, 87, 164);
+  color: rgb(149, 0, 255);
+  border-radius: 5px;
+  /* justify-content: center; */
+  margin-Left: auto;
+  margin-right: auto;
+}
+
+.box {
+  background-color: rgb(216, 160, 255);
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1em;
+  border: solid black 1px;
+}
+
+h2{
+  font-family: "SpaceTheme";
+}
+footer{
+  position: fixed;
+  bottom:0px;
+  right:0px;
+  color:grey;
+}

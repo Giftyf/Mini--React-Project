@@ -1,0 +1,81 @@
+{
+    "element": [
+      {
+        "label": "Fire",
+        "planet": "Venus"
+      },
+      {
+        "label": "Water",
+        "planet": "Neptune"
+      },
+      {
+        "label": "Air",
+        "planet": "Uranus"
+      },
+      {
+        "label": "Land",
+        "planet": "Earth"
+      }
+    ],
+    "qualities": [
+      {
+        "label": "Adventurous",
+        "planet": "Uranus"
+      },
+      {
+        "label": "Calm",
+        "planet": "Neptune"
+      },
+      {
+        "label": "Passionate",
+        "planet": "Venus"
+      },
+      {
+        "label": "Practical",
+        "planet": "Earth"
+      },
+      {
+        "label": "Creative",
+        "planet": "Uranus"
+      },
+      {
+        "label": "Determined",
+        "planet": "Venus"
+      },
+      {
+        "label": "Nurturing",
+        "planet": "Neptune"
+      },
+      {
+        "label": "Grounded",
+        "planet": "Earth"
+      },
+      {
+        "label": "Energetic",
+        "planet": "Venus"
+      },
+      {
+        "label": "Logical",
+        "planet": "Earth"
+      }
+    ],
+    "twilight": [
+      {
+        "label": "Morning",
+        "planet": "Earth"
+      },
+      {
+        "label": "Afternoon",
+        "planet": "Venus"
+      },
+      {
+        "label": "Evening",
+        "planet": "Neptune"
+      },
+      {
+        "label": "Night",
+        "planet": "Uranus"
+      }
+    ]
+  }
+  
