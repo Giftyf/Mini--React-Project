@@ -38,7 +38,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src="https://i.imgur.com/DkrePGr.gif" alt="Video Walkthrough" width="600">
 
-![Video Walkthrough](https://i.imgur.com/DkrePGr.gif)
 
 GIF created with ...
 --->Snipping tool
