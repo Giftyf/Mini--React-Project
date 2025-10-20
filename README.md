@@ -14,7 +14,7 @@ The following functionalities are **completed**:
 
 ### Quiz Page (implmented using Vue.js)
 - [x] **User can answer the questions  and submit: it doesn't require all questions to be answered**
-- [x] **User Can click on Retake button and all previouis answers will be removedm**
+- [x] **User Can click on "Retake button" and all previouis answers will be removed**
 - [x] User can see the how many answers they got right after sumission
 - [X] User can go back to the home page
 
@@ -36,7 +36,7 @@ Future Upgrades
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/sKv7DNQ#RxoE6sG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/DkrePGr.gif' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
 
 GIF created with ...
 --->Snipping tool
